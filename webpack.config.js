@@ -44,8 +44,13 @@ const common = {
 			presets: ['react', 'es2015', 'survivejs-kanban']
 		},
         include: PATHS.app
-      }
-    ]
+      },
+    // SASS
+		{
+		  test: /\.scss$/,
+		  loaders: ["style", "css", "sass"],
+		  include: PATHS.app
+		}]
   },
   plugins: [
     new HtmlwebpackPlugin({
