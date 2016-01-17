@@ -9,7 +9,7 @@ body {
 }
 
 /* TODO STYLE: round*/
-textarea {
+textarea, iframe {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -17,4 +17,11 @@ textarea {
 	border-radius: 5px;
 
 	width: 100%;
+
+	overflow: auto;
+}
+
+.link {
+	font-size: 16px;
+	/*color: #202264;*/
 }
