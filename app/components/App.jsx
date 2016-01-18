@@ -3,7 +3,8 @@
 import React from 'react';
 // import Editor from './Editor.jsx';
 // import Preview from './Preview.jsx';
-var marked = require('marked');
+import marked from 'marked';
+//var marked = require('marked');
 
 //TODO see if I can 
 export default class App extends React.Component {
