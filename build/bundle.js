@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "1dbf78f68789c0649e9e"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "d383f3f513fadacc46c0"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -607,7 +607,7 @@
 
 
 	// module
-	exports.push([module.id, "/* app/main.scss */\nbody {\n  background: #AEE1CF; }\n\n.gap-medium {\n  height: 40px; }\n\ntextarea, iframe {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n  border-radius: 5px;\n  width: 100%;\n  overflow: auto; }\n\n.link {\n  font-size: 16px; }\n\n/*# sourceMappingURL=main.css.map */\n", ""]);
+	exports.push([module.id, "/* app/main.scss */\nbody {\n  background: #AEE1CF; }\n\n.gap-medium {\n  height: 40px; }\n\ntextarea, iframe {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n  border-radius: 5px;\n  width: 100%;\n  overflow: auto; }\n\n.link {\n  font-size: 16px; }\n\n.footer {\n  padding-top: 30px; }\n\n.fa-heart {\n  color: #e708a6; }\n\n/*# sourceMappingURL=main.css.map */\n", ""]);
 
 	// exports
 
@@ -20611,6 +20611,33 @@
 								'Preview'
 							),
 							_react2.default.createElement('iframe', { id: 'preview_iframe', height: '505', seamless: 'true' })
+						)
+					),
+					_react2.default.createElement(
+						'div',
+						{ className: 'row footer' },
+						_react2.default.createElement(
+							'div',
+							{ className: 'col-xs-12 col-sm-12' },
+							_react2.default.createElement(
+								'p',
+								{ className: 'text-center' },
+								'Brought to you with ',
+								_react2.default.createElement('i', { className: 'fa fa-heart' }),
+								_react2.default.createElement('br', null),
+								'from ',
+								_react2.default.createElement(
+									'a',
+									{ href: 'http://www.carolchung.com', target: '_blank' },
+									'Tusk Tusk Dev.'
+								),
+								_react2.default.createElement('br', null),
+								_react2.default.createElement(
+									'a',
+									{ href: 'https://github.com/cch5ng/markdown-editor', target: '_blank' },
+									'(source)'
+								)
+							)
 						)
 					)
 				);

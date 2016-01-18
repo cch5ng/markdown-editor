@@ -30,13 +30,19 @@ export default class App extends React.Component {
 						{/* had to bind to this in the onChange call to handleChange() */}
 						<textarea cols="70" rows="25" className="editor" value={this.state.content} onChange={this.handleChange.bind(this)}></textarea>
 					</div>
-
 					<div className="col-xs-6 col-sm-6">
 						<h2>Preview</h2>
 						<iframe id="preview_iframe" height="505" seamless="true">
 						</iframe>
 					</div>
-
+				</div>
+				<div className="row footer">
+					<div className="col-xs-12 col-sm-12">
+						<p className="text-center">Brought to you with <i className="fa fa-heart"></i><br /> 
+ from <a href="http://www.carolchung.com" target="_blank">Tusk Tusk Dev.</a><br />
+							<a href="https://github.com/cch5ng/markdown-editor" target="_blank">(source)</a>
+						</p>
+					</div>
 				</div>
 			</div>
 		);
